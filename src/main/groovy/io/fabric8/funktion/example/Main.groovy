@@ -18,9 +18,6 @@ package io.fabric8.funktion.example;
 
 import org.apache.camel.Header
 
-public class Main {
-
-    Object main(String body, @Header("name") String name) {
-        "Hello ${name}! I got payload `${body}` and I am on host: ${System.getenv("HOSTNAME")} and I am groovy!" 
-    }
+def main(String body, @Header("name") String name) {
+    "Hello ${name}! I got payload `${body}` and I am on host: ${System.getenv("HOSTNAME")} and I am groovy!"
 }
