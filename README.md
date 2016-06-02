@@ -1,6 +1,6 @@
-## Example Java Funktion
+## Example Groovy Funktion
 
-This example shows how easy it is to develop a [funktion](https://github.com/fabric8io/funktion/blob/master/README.md) in Java.
+This example shows how easy it is to develop a [funktion](https://github.com/fabric8io/funktion/blob/master/README.md) in [Groovy](http://www.groovy-lang.org/).
 
 <p align="center">
   <a href="http://fabric8.io/">
