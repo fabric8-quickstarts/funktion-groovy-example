@@ -19,5 +19,9 @@ package io.fabric8.funktion.example;
 import org.apache.camel.Header
 
 def main(String body, @Header("name") String name) {
-    "Hello ${name}! I got payload `${body}` and I am on host: ${System.getenv("HOSTNAME")} and I am groovy!"
+    if (name != null) {
+      "Hello ${name}! I got payload `${body}` and I am on host: ${System.getenv("HOSTNAME")} and I am groovy!"
+    } else {
+      "What is your name? Specify a name using ?name=foo as query parameter. I am on host: ${System.getenv("HOSTNAME")} and I am groovy!"
+    }
 }
