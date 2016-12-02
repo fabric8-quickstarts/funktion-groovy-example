@@ -14,7 +14,7 @@
  * permissions and limitations under the License.
  *
  */
-package io.fabric8.funktion.example;
+package io.fabric8.funktion.example
 
 import org.apache.camel.Header
 
